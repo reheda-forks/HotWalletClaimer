@@ -4,7 +4,10 @@ This Python script simplifies claiming the cryptocurrency HOT, using the "HereWa
 
 💡 TIP: It is possible to manage multiple HereWallet accounts using just one Telegram account by initiating several distinct sessions. For a straightforward setup, consider using **SCREEN** (see the quick start guide below). However, for the more confident user, [PM2](#pm2) is recommended.
 
-If you find this script useful, please consider [buying me a coffee](https://www.buymeacoffee.com/HotWallletBot). The HereWallet game can be found [HERE](https://t.me/herewalletbot/app?startapp=3441967-village-85935).
+If you find this script useful, please consider [buying me a coffee](https://www.buymeacoffee.com/HotWallletBot), [joining the same village](https://t.me/herewalletbot/app?startapp=village85935), or adding me as your referrer (Recover Inviter = philstockdale.tg) - adding me as referrer will reward me with a few extra coins for maintaining the script! You can do both with the link below.
+
+The HereWallet app/game can be found here: [https://t.me/herewalletbot/app?startapp=3441967-village-85935](https://t.me/herewalletbot/app?startapp=3441967-village-85935)
+
 
 ## 🚀 How To Use (installation based on Ubuntu 20.04/22.04)
 
@@ -14,7 +17,7 @@ If you find this script useful, please consider [buying me a coffee](https://www
 - VPS users should make an SSH connection via PuTTy or open the Command Window on your local machine.
 
    ```bash
-   sudo apt install -y git || true && git clone https://github.com/thebrumby/HotWalletBot.git && cd HotWalletBot && chmod +x install.sh && ./install.sh
+   sudo apt install -y git || true && git clone https://github.com/reheda-forks/HotWalletClaimer.git && cd HotWalletBot && chmod +x install.sh && ./install.sh
    ```
 Start your first session with ```screen -S first_session```. If you are not in the HotWalletBot directory, you must ```cd HotWalletBot```. Execute the Python script using ```python3 claim.py```, then follow the [Usage Notes](#usage-notes) to set up the session and automate the claiming process. Pressing ```CTRL+A+D``` simultaneously will leave this session running in the background. ```screen -r first_session``` will resume the session for you to check on progress, or for errors. If you wish to start the Python script without the CLI setup and go straight into an existing session, use ```python3 claim.py 1```. Note: 1 is the default session name for the first session, if you changed it,  replace "[1]"  with the exact Session Name you specified when setting this session up.
 
@@ -23,19 +26,10 @@ If you have a second account, from the command line (not within the first Screen
 💡 Tip: Each active Python script, requires approximately 450 MB of server memory and also utilizes a portion of CPU resources for the Chrome Driver process while logging in or making a claim. It is important to assess your server's resources to ensure you can support the number of concurrent sessions you wish to operate.
 
 <p align="center">
-  <table style="margin-left: auto; margin-right: auto; width: 100%;"><tr>
-    <td style="width: 50%; vertical-align: top;">
-      <a href="https://www.youtube.com/watch?v=MjUquyLWPGw" title="YouTube Visual Instructions">
-        <img src="https://img.youtube.com/vi/MjUquyLWPGw/0.jpg" alt="YouTube Visual Instructions" style="max-width: 100%; height: auto;">
-      </a>
-      <div style="text-align: center; margin-top: 10px;">
-        See a walkthrough of all the steps, from server setup to installing the script, on <a href="https://www.youtube.com/watch?v=MjUquyLWPGw" title="YouTube Visual Instructions">YouTube</a>.
-      </div>
-    </td>
-    <td style="width: 50%; vertical-align: top;">
-      <img src="https://github.com/thebrumby/HotWalletClaimer/assets/29182343/f3c2f57c-282a-4d3c-be9a-15113a466c44" alt="image" style="max-width: 100%; height: auto;">
-    </td>
-  </tr></table>
+  <a href="https://www.youtube.com/watch?v=MjUquyLWPGw" title="YouTube Visual Instructions">
+    <img src="https://img.youtube.com/vi/MjUquyLWPGw/0.jpg" alt="YouTube Visual Instructions">
+  </a><br>
+   See a walkthrough of all the steps, from server setup to installing the script, on <a href="https://www.youtube.com/watch?v=MjUquyLWPGw" title="YouTube Visual Instructions">YouTube</a>.
 </p>
 
 ### Linux Manual installation - Ensure each command in the code block executes. 
